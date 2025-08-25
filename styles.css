@@ -1,2 +1,43 @@
 
 /* Your CSS Code here. */
+/* Reset some default spacing */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Navbar styling */
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Video section */
+h2 {
+  margin-top: 30px;
+}
+
+.video-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
